@@ -5,12 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tony's Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Welcome to my BI site</h1>
     <img src="headshot.png" height="200px">
     <p> welcome to my place of showing you analytics,
         come back soon to see what changes I make. </p>
+     <!--   
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    -->
+
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+<script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+
+
+    <figure class="highcharts-figure">
+        <div id="linecontainer"></div>
+        <p class="highcharts-description">
+        Basic line chart showing trends in a dataset. This chart includes the
+        <code>series-label</code> module, which adds a label to each line for
+        enhanced readability.
+        </p>
+        <Script src="line.js"></Script>
+    </figure>
+
+    
+    <figure class="highcharts-figure">
+        <div id="areacontainer" style="border:2px solid red;"></div>
+        <p class="highcharts-description">
+            A demo showing a stacked area chart, also sometimes referred to as a
+            mountain chart. In a stacked chart, the data series values are added
+            together to make up a total.
+        </p>
+        <Script src="area.js"></Script>
+    </figure>
+
+
+    <figure class="highcharts-figure">
+        <div id="columncontainer"></div>
+        <p class="highcharts-description">
+            Chart showing column comparisons with negative values.
+            Column charts are commonly used to compare values, and remains one of
+            the most popular and readable types of charts.
+        </p>
+        <Script src="column.js"></Script>
+    </figure>
+
+    <figure class="highcharts-figure">
+        <div id="piecontainer"></div>
+        <p class="highcharts-description">
+            Pie chart where the individual slices can be clicked to expose more
+            detailed data.
+        </p>
+        <Script src="pie.js"></Script>
+    </figure>
+
+    <figure class="highcharts-figure">
+        <div id="speedcontainer"></div>
+        <p class="highcharts-description">
+            Chart showing use of plot bands with a gauge series. The chart is
+            updated dynamically every few seconds.
+        </p>
+        <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    </figure>
+
+    <figure class="highcharts-figure">
+        <div id="spidercontainer"></div>
+        <p class="highcharts-description">
+            A spiderweb chart or radar chart is a variant of the polar chart.
+            Spiderweb charts are commonly used to compare multivariate data sets,
+            like this demo using six variables of comparison.
+        </p>
+        <Script src="spider.js"></Script>
+    </figure>
+
+
+
+
+
+
+
+
+
+        
     </p>
 </body>
 </html>
