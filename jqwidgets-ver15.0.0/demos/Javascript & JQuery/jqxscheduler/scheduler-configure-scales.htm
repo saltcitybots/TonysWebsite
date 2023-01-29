@@ -56,7 +56,7 @@
             };
             var adapter = new $.jqx.dataAdapter(source);
             $("#scheduler").jqxScheduler({
-                date: new $.jqx.date(2017, 11, 23),
+                date: new $.jqx.date(2023, 01, 01),
                 width: getWidth("Scheduler"),
                 height: 600,
                 source: adapter,
@@ -81,7 +81,8 @@
                 views:
                 [
                     { type: "dayView", showWeekends: true, timeRuler: { scale: "quarterHour" } },
-                    { type: "weekView", showWeekends: true, timeRuler: { scale: "quarterHour" } }
+                    { type: "weekView", showWeekends: true, timeRuler: { scale: "quarterHour" } },
+                    { type: "monthView", showWeekends: true, timeRuler: { scale: "quarterHour" } }
                 ]
             });
         });
